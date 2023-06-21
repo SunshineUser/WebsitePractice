@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Landing Page</title>
+</head>
+<body>
+    <h1>My Course landing Page</h1>
+    <form action="nowhere" method="get">
+        <label for="coursetitle">Course Title</label>
+        <input type="text" name="coursetitle" id="coursetitle">
+        <br/>
+        <label for="coursedescription">Course Description</label>
+        <br/>
+        <textarea rows="20" cols="50"
+        name="coursedescription" id="coursedescription" placeholder="I pledge that whatever I am teaching is for the benefit of mankind">
+        </textarea>
+        <br/>
+        <label for="skilllevel">Skill Level</label>
+        <select name="skilllevel" id="skillevel">
+            <option value="beginner">beginner</option>
+            <option value="intermediate">intermediate</option>
+            <option value="advanced">advanced</option>
+            <option value="godmode">godmode</option>
+        </select>
+        <br/>
+        <label for="ready">Publish this course?</label>
+        <input type="checkbox" name="ready" id="ready">
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
